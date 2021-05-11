@@ -1,0 +1,30 @@
+HTTP GET
+http://localhost:8080/greeting
+RESPONSE
+{"id":1,"content":"Hello, World!"}
+
+HTTP GET
+http://localhost:8080/greeting?name=User
+RESPONSE
+{"id":1,"content":"Hello, User!"}
+
+Gradle:
+run the application
+gradlew bootRun
+
+build the JAR file
+gradlew build
+
+Run executable jar
+java -jar build/libs/simplerest-0.0.1-SNAPSHOT.jar
+
+
+Maven:
+run the application
+mvnw spring-boot:run
+
+build the JAR file
+mvnw clean package
+
+Run executable jar
+java -jar target/simplerest-0.0.1-SNAPSHOT.jar

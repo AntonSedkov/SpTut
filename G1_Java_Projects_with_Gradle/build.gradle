@@ -35,7 +35,7 @@ dependencies {
 // gradle build
 // gradle wrapper --gradle-version 6.0.1
 // ./gradlew build
-// gradlew.bat build
+// gradlew build
 // jar tvf build/libs/gs-gradle-0.1.0.jar
 
 //
