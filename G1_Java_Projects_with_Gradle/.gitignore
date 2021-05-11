@@ -1,0 +1,10 @@
+.classpath
+.project
+.gitattributes
+.idea/*
+.settings/*
+/target/*
+/bin/*
+/out/*
+*.iml
+/META-INF
