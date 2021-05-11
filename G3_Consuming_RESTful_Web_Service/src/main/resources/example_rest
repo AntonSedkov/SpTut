@@ -1,0 +1,12 @@
+REST
+https://quoters.apps.pcfone.io/api/random
+
+{
+   type: "success",
+   value: {
+      id: 10,
+      quote: "Really loving Spring Boot, makes stand alone Spring apps easy."
+   }
+}
+
+java -jar build/libs/consumerest-0.0.1.jar
