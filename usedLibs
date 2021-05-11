@@ -1,10 +1,8 @@
 https://github.com/FasterXML/jackson	Jackson JSON library
 
-
-
 joda-time:joda-time:2.2										joda-time library
 testImplementation 'org.awaitility:awaitility:3.1.2' 		awaitility library
-
+testCompile 'com.jayway.jsonpath:json-path'					the Jayway JsonPath library
 
 
 tech

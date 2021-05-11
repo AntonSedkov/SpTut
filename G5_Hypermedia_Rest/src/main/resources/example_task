@@ -1,0 +1,26 @@
+HTTP GET
+http://localhost:8080/greeting
+
+JSON response
+{
+  "content":"Hello, World!",
+  "_links":{
+    "self":{
+      "href":"http://localhost:8080/greeting?name=World"
+    }
+  }
+}
+
+HTTP GET
+http://localhost:8080/greeting?name=User
+
+JSON response
+{
+  "content":"Hello, User!",
+  "_links":{
+    "self":{
+      "href":"http://localhost:8080/greeting?name=User"
+    }
+  }
+}
+
